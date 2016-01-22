@@ -1,0 +1,114 @@
+String wfile="dia_log_2016_1_15_6_";
+float Data_conf=1;
+PImage kolso,p720,p720v,logo,jx_project,dron,linc,watch,satelitete,de_ho_ho,us_ho_ho;
+PImage p720v1,p720v2,p720v3,p720v4,p720v6,p720v7,p720v5,p720logo;
+PImage  sdk,p720v8,p720v9,p720v10;
+
+
+int ff;
+int x,y;
+int w;
+void setup(){
+   x=540;
+   y=960;
+size(540,960);
+ orientation(PORTRAIT);  
+watch= loadImage("http://..................watch.JPG");
+sdk=loadImage("sdk_logo.jpg");
+mouseX=140;mouseY=50;
+
+p720v5= loadImage("https://link_1.jpg");
+p720v1= loadImage("http://link_2.jpg");
+p720v2= loadImage("http://link_3.jpg");
+p720v3= loadImage("http://link_4.jpg");
+p720v4= loadImage("https://link_5.jpg");
+
+//https://encrypted-tbn0....................
+//");
+p720v6= loadImage("https://link_6.jpg");
+p720v7= loadImage("https://link_7.jpg");
+p720v8= loadImage("https://link_8.jpg");
+p720v9= loadImage("https://link_9.jpg");
+p720v10= loadImage("https://link_10.jpg");
+
+ //
+
+  p720v= loadImage("http://...........algebra240.jpg");
+
+  }
+  
+  
+  void draw(){
+logo = p720v;
+//blackground(0);
+p720v.resize(x,y);
+tint(160, 126);
+image(p720v10,0,0);
+tint(155, 126,40);
+ff=ff+1;
+//p720logo=p720v1;
+if(ff<150){p720logo=p720v1;};
+if(ff>140){p720logo=p720v2;};
+if(ff>200){p720logo=p720v3;};
+if(ff>300){p720logo=p720v4;};
+if(ff>400){p720logo=p720v5;};
+if(ff>500){p720logo=p720v6;};
+if(ff>600){p720logo=p720v7;};
+if(ff>700){p720logo=p720v8;};
+if(ff>800){p720logo=p720v9;};
+//p720logo=p720v10;
+//println(ff);
+//if(ff>400){p720logo=p720v4;};
+//if(ff>500){p720logo=p720v5;};
+if(ff>878){ff=0;};
+//p720logo=p720v5;
+p720logo.resize(200,200);
+watch.resize(20,20);
+image(p720v,0,0);  
+
+sdk.resize(x,y);
+image(sdk,0,0);
+image(p720logo,width-p720logo.width,height-p720logo.height);
+image(watch,mouseX-25,mouseY-20);
+p720v10.resize(x,y);
+
+tint(40, 255);
+image(p720v10,0,0);
+
+textSize(25);
+
+text("GOOD DAY ::) ",mouseX,mouseY);
+if((mouseX>200)&(mouseY>200)){w=w+1;};
+
+
+
+
+
+
+
+if(w>100){
+ // exit;
+link("http://ru.solverbook.com/spravochnik/matricy/vidy-matric/");
+
+//link("http://abc.vvsu.ru/Books/u_vyssh_m1/page0001.asp");
+
+//link("http://www.processing.org");
+
+//http://sci.tech-archive.net/Archive/
+
+//ps share bitton onsaite
+
+w=0;mouseX=80;mouseY=50;
+};
+//for ma pa & children for mery cristmass 2017
+// http://ru.aliexpress.com/item/Free-Shipping-USA-UK-Canada-Russia-Brazil-Hot-Sales-8MM-CIRCUIT-BOARD-His-Her-Shiny-Silver/2024130295.html?spm=2114.03020208.3.2.aAUoCL&ws_ab_test=searchweb201556_3,searchweb201644_3_10001_10002_10005_301_10006_10012_10003_10004_62_10007,searchweb201560_2,searchweb1451318400_6150
+//http://www.boeing.com/defense/
+//https://soundcloud.com/elly-nguyen-5/best-christmas-carols-2014
+//usa.gov
+//http://www.loc.gov/
+//http://www.gettyimages.com/galleries/photographers?photographer=telescope+science+institute%2Fnasa+-+space
+//https://www.nasa.gov/
+
+
+
+    }
