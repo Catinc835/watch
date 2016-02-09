@@ -1,0 +1,46 @@
+//find love game screen & scaitch 
+//sourse  http://jx408.ucoz.net/lovetouertoor/jx_di_project-release-signed.apk
+//filtre  https://play.google.com/store/apps/details?id=com.seventeenmiles.sketch&hl=ru
+
+
+
+.... code
+  filter sheiders ai
+  
+  + shaiderai.jar
+    size(540,960);
+  shield1=loadImage("_shield1.png");
+  shield2=loadImage("_shield2.png");
+  shield3=loadImage("_shield3.PNG");
+  shield4=loadImage("_shield4.PNG");
+  logo=loadImage("logo.png");
+  
+void hself() {
+  biged=biged+1;
+if(biged<50){ shield=shield1;JXPRJ=J;};
+if(biged>100){ shield=shield2;JXPRJ=J+X;};
+if(biged>150){ shield=shield3;JXPRJ=J+X;};
+if(biged>200){ shield=shield4;JXPRJ=J+X+PRJ;};
+if(biged>250){ biged=140;};
+ shield0=  shield;
+ shield0.resize(480,700);
+ tint(0, 153, 204, 126);
+tint(255, 126); 
+textSize(32);
+fill(255, 102, 153);
+text("GOOD DAY"+JXPRJ, mouseX-367+160+89,mouseY); 
+
+ image(shield0,0,0); 
+ image(logo,0,0); 
+ 
+ 
+//bilets from cam on
+//http://www.boeing.com/commercial/flight-tracker/
+//group.aliexpress.com
+//ebay.com
+  }
+  
+  
+  
+  void connects(){  
+  try {.....};
